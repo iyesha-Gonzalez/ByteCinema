@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    // textbox button color for SURVEY CHOICES
+    <solid android:color="@color/ColorPrimary"/>
+    <corners android:radius="16dp"/>
+    <stroke android:color="@color/ColorPrimaryVariant" android:width="2dp"/>
+
+
+</shape>

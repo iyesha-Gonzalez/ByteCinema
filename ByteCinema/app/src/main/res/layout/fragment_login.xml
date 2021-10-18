@@ -24,7 +24,7 @@
         android:padding="14dp"
         android:textColor="@color/ColorOnSecondary"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/confirm_password"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,11 +41,11 @@
         android:text="Forgot Password?"
         android:textColor="@color/ColorOnPrimary"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/confirm_password"
-        app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <EditText
-        android:id="@+id/confirm_password"
+        android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -60,7 +60,7 @@
         android:padding="14dp"
         android:textColor="@color/ColorOnSecondary"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/create_account_btn"
+        app:layout_constraintBottom_toTopOf="@+id/loginBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
 
 
     <Button
-        android:id="@+id/create_account_btn"
+        android:id="@+id/loginBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -81,13 +81,13 @@
         android:textColor="@color/ColorOnSecondary"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/login_text"
+        app:layout_constraintBottom_toTopOf="@+id/create_account_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/login_text"
+        android:id="@+id/create_account_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
